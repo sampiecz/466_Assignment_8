@@ -10,104 +10,127 @@
     <head>
     </head>
     <body>
-        <div width="50%">
-            <table>
+        <div width="100%">
+            <table width="100%" border="50px" cellpadding="25%">
                 <tr>
-                    <td>
-                        <image width="100px" src="One_Image.jpg" />
+                    <td width="25%">
+                        <image width="100%" src="One_Image.jpg" />
                     </td>
                     <td>
-                        <p>This is an image I created for this assignment. It is bland.</p>
-                        <p>Created by Sam Piecz - Wed Apr 4 at 4:23 PM</p>
+                        <h1>This is an image I created for this assignment. It is bland.</h1>
+                        <h2>Created by Sam Piecz - Wed Apr 4 at 4:23 PM</h2>
                     </td>
                 </tr>
             </table>
         </div>
-        <div>
-            <ol type="i">
-                <li>
-                    <p>CSCI - 466</p>
-                </li>
-                <li>
-                    <p>CSCI - 340</p>
-                </li>
-                <li>
-                    <p>ECON - 260</p>
-                </li>
-                <li>
-                    <p>MATH - 211</p>
-                </li>
-            </ol>
-        </div>
-        <div width="50%">
-            </ol>
+        <div width="100%">
+            <table width="100%" border="50px" cellpadding="25%">
+                <tr>
+                    <td>
+                        <h2>These are the classes I am currently in."</h2>
+                        <ol type="i">
+                            <li>
+                                <p>CSCI - 466</p>
+                            </li>
+                            <li>
+                                <p>CSCI - 340</p>
+                            </li>
+                            <li>
+                                <p>ECON - 260</p>
+                            </li>
+                            <li>
+                                <p>MATH - 211</p>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
         </div>
         <div width="50%">
             <form method="GET" action="">
-                <table>
+                <table width="100%" border="50px" cellpadding="25%">
                     <tr>
                         <td>
+                            <h2>Please do select one of these five different tree types.</h2>
                             <select>
+                                <option value="Larch">Larch</option>
                                 <option value="Birch">Birch</option>
                                 <option value="Oak">Oak</option>
                                 <option value="White Pine">White Pine</option>
                                 <option value="Fir">Fir</option>
-                                <option value="Apple">Apple</option>
                             </select>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label>Freshman</label>
-                            <input type="radio" />
+                            <div>
+                                <h2>Select your collegiate status.</h2>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label>Freshman</label>
+                                            <input type="radio" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>Sophmore</label>
+                                            <input type="radio" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>Junior</label>
+                                            <input type="radio" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>Senior</label>
+                                            <input type="radio" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>Student-at-large</label>
+                                            <input type="radio" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>Graduate</label>
+                                            <input type="radio" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label>Sophmore</label>
-                            <input type="radio" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Junior</label>
-                            <input type="radio" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Senior</label>
-                            <input type="radio" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Student-at-large</label>
-                            <input type="radio" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Graduate</label>
-                            <input type="radio" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Red Vines</label>
-                            <input type="checkbox" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Beef Jerky</label>
-                            <input type="checkbox" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Soft mints</label>
-                            <input type="checkbox" />
+                            <div>
+                                <h2>Select one, or all three.</h2>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label>Red Vines</label>
+                                            <input type="checkbox" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>Beef Jerky</label>
+                                            <input type="checkbox" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label>Soft mints</label>
+                                            <input type="checkbox" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </td>
                     </tr>
                     <tr>
@@ -119,23 +142,28 @@
                     <tr>
                         <td>
                             <button action="submit">Submit</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
                             <button action="cancel">Cancel</button>
                         </td>
                     </tr>
                 </table>
             </form>
         </div>
-        <div>
-            <center>
-                <p><font color="red">Samuel Piecz</font></p>
-            </center>
-            <center>
-                <p><font color="blue">Section 3</font></p>
-            </center>
+        <div width="100%">
+            <table width="100%" border="50px" cellpadding="25%">
+                <tr>
+                    <td>
+                        <center>
+                            <p><font color="red">Samuel Piecz</font></p>
+                        </center>
+                        <center>
+                            <p><font color="blue">Section 3</font></p>
+                        </center>
+                        <center>
+                            <p><font><a href="https://sampiecz.com">https://samuelpiecz.com/</a></font></p>
+                        </center>
+                    </td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
